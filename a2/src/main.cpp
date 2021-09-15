@@ -1,5 +1,7 @@
 #include "life.hpp"
 
+#include <chrono>
+#include <thread>
 #include <iostream>
 
 using namespace LifeGame;
@@ -20,10 +22,11 @@ int main(int argc, char** argv)
     configuration.instructions();
     configuration.initialize();
     configuration.print();
-    std::cout << "Continue viewing new generations?" << std::endl;
-    while (user_says_yes()) {
+    int number_of_updates_done = 0;
+    while (++number_of_updates_done < configuration.number_of_updates) {
         configuration.update();
         configuration.print();
-        std::cout << "Continue viewing new generations?\n";
+        std::this_thread::sleep_for(std::chrono::seconds
+            (configuration.update_delay));
     }
 }
