@@ -1,2 +1,2 @@
-# programming3
-TAMK Programming3 course repo
+# Programming 3
+TAMK Programming 3 course repo
