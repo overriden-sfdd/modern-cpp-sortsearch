@@ -1,3 +1,6 @@
+#ifndef SORT_ENGINE_HPP_
+#define SORT_ENGINE_HPP_
+
 #include <vector>
 
 /* for merge sort swap_num increments for each item
@@ -73,3 +76,5 @@ std::vector<int> merge(std::vector<int> lhs, std::vector<int> rhs,
  **/
 std::vector<int> merge_sort(std::vector<int>& vec, int l,
     int r, sort_comp_storage* cmp_struct = nullptr);
+
+#endif // SORT_ENGINE_HPP_

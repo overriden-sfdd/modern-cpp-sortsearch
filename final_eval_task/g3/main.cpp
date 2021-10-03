@@ -30,7 +30,7 @@ int main(int argc, char* argv[])
     }
 
     insertion_sort(vec, 0, data_size - 1);
-    
+
     std::cout << "\n\nAfter sort:" << std::endl;
     for (auto i = 0; i < std::min(static_cast<int>(vec.size()), print_el_num); ++i) {
         std::cout << vec[i] << ' ';

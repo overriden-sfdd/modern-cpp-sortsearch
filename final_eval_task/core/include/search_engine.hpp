@@ -1,3 +1,6 @@
+#ifndef SEARCH_ENGINE_HPP_
+#define SEARCH_ENGINE_HPP_
+
 #include <vector>
 
 struct time_comp_storage
@@ -25,3 +28,5 @@ int linear_search(const std::vector<int>& vec, int value, int* comp_num = nullpt
  * @return Position of the element in the given vector.
  **/
 int binary_search(const std::vector<int>& numbers, int number, int* comp_num = nullptr);
+
+#endif // SEARCH_ENGINE_HPP_

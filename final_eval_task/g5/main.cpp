@@ -27,10 +27,10 @@ void test_compare_sorts(std::string&& sort_name, std::vector<int> vec,
     cmp_struct->operations_num = cmp_struct->comp_num + cmp_struct->swap_num;
 
     std::cout << sort_name << ":\n" << std::string(20, '-')
-    << "\nComparisons: " << cmp_struct->comp_num
-    << "\nSwaps: " << cmp_struct->swap_num
-    << "\nOperations: " << cmp_struct->operations_num
-    << "\nElapsed time: " << cmp_struct->etime_sort << "[ms]\n";
+        << "\nComparisons: " << cmp_struct->comp_num
+        << "\nSwaps: " << cmp_struct->swap_num
+        << "\nOperations: " << cmp_struct->operations_num
+        << "\nElapsed time: " << cmp_struct->etime_sort << "[ms]\n";
 }
 
 int main(int argc, char* argv[])
