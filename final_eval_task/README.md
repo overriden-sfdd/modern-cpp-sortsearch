@@ -1,6 +1,6 @@
 # Final evaluation task for Programming 3 course
 
-![Test Image 3](/image/performance.png)
+![Performance Image](./image/performance.png)
 
 ## Requirements
 * cmake version >= 3.16
