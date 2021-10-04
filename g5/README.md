@@ -1,5 +1,3 @@
-# Task for group 5
-
 ## Description
 
 * Add to your program one sorting algorithm of class n^2

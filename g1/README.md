@@ -1,5 +1,3 @@
-# Task for group 1
-
 ## Description
 
 * The program makes a sequential_search (linear search) from the data given to it based on some key value.

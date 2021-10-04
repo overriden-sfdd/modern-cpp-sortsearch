@@ -2,12 +2,12 @@ cmake_minimum_required(VERSION 3.14)
 project(Programming3EvalTask LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 14)
-option(BUILD_G1 "Build group 1 task" ON)
-option(BUILD_G2 "Build group 2 task" ON)
-option(BUILD_G3 "Build group 3 task" ON)
-option(BUILD_G4 "Build group 4 task" ON)
-option(BUILD_G5 "Build group 5 task" ON)
-option(BUILD_PLOTTER "Build plotter for group 5 task" ON)
+option(BUILD_G1 "Build task 1" ON)
+option(BUILD_G2 "Build task 2" ON)
+option(BUILD_G3 "Build task 3" ON)
+option(BUILD_G4 "Build task 4" ON)
+option(BUILD_G5 "Build task 5" ON)
+option(BUILD_PLOTTER "Build plotter for task 5" OFF)
 
 add_subdirectory(core)
 

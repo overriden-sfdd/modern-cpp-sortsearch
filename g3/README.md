@@ -1,5 +1,3 @@
-# Task for group 3
-
 ## Description
 
 * The program makes insertion sort to the randomized data.

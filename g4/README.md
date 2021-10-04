@@ -1,5 +1,3 @@
-# Task for group 4
-
 ## Description
 
 * The program makes sorting of performance n*log(n) to the randomized data.
