@@ -1,7 +1,3 @@
-# Minimalistic basic sort and search algorithms in C++
-
-![Performance Image](./image/performance.png)
-
 ## Requirements
 * cmake version >= 3.16
 * gcc/g++ version >= 9.0
@@ -39,3 +35,7 @@ cmake --build .
 
 ## Run
 From the root directory you can see bin directory. There you can find all executables for each group.
+
+## Sort efficiency plots
+(note, not a good benchmark)
+![Performance Image](./image/performance.png)
